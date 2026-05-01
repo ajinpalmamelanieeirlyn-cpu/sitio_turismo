@@ -1,0 +1,97 @@
+body{
+    background-image: url(sitio.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+
+}
+
+nav{
+
+    background-color: rgba(245, 245, 245, 0.316);
+    padding: 20px;
+    display: left;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 14px;
+
+}
+li{
+    display: inline;
+    color:aliceblue;
+    padding: 80px;
+    text-decoration: none;
+}
+h1{
+    color: rgba(12, 101, 6, 0.861);
+    text-align:center;
+    font-size: 80px;
+
+}
+.busqueda{
+    display:flex;
+    width: 10%;
+    background-color: whitesmoke;
+    height: 3vh;
+    border-radius: 25px;
+    padding: 5px;
+    margin-left: 80%;}
+.busqueda input{
+    border: none;
+    background: transparent;
+    outline: none;
+    width: 100%;
+    padding: 5px;
+}
+.busqueda{
+    display:flex;
+    width: 13%;
+    background-color: rgb(245, 241, 241);
+    height: 5vh;
+    border-radius: 25px;
+}
+a{
+    text-decoration: none;
+    font-size: 60PX;
+    color:rgb(84, 157, 75);
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+}
+.caja{
+    display:inline-block;
+    flex-direction: column-reverse;
+    background-color: rgba(106, 208, 78, 0.418);
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 14px;
+    margin:auto;
+    margin-top: 80px;
+    height: 600px;
+    width: 500px;
+}
+p{
+    font-size: 20px;
+    color: rgb(84, 157, 75);
+}
+h2{
+    color: black;
+    font-size: 24px;
+}
+.imagen{
+    width: 50%;
+    height: auto;
+    border-radius: 14px;
+
+
+}
+.contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    
+}

@@ -1,0 +1,42 @@
+body{
+    background-image: url(descarga.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+
+}
+
+nav{
+
+    background-color: rgba(245, 245, 245, 0.316);
+    padding: 20px;
+    display: left;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 14px;
+
+}
+li{
+    display: inline;
+    color:aliceblue;
+    padding: 80px;
+    text-decoration: none;
+}
+h1{
+    color: rgba(6, 8, 114, 0.782);
+    text-align:center;
+    font-size: 80px;
+
+}
+a{
+    text-decoration: none;
+    font-size: 60PX;
+    color:rgb(43, 171, 226);
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+}
+    
