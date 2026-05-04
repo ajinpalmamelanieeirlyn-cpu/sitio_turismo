@@ -1,5 +1,5 @@
 body{
-    background-image: url(sitio.jpg);
+    background-image: url(inicio.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -27,7 +27,7 @@ li{
     text-decoration: none;
 }
 h1{
-    color: rgba(12, 101, 6, 0.861);
+    color: rgba(213, 124, 22, 0.861);
     text-align:center;
     font-size: 80px;
 
@@ -57,13 +57,13 @@ h1{
 a{
     text-decoration: none;
     font-size: 60PX;
-    color:rgb(84, 157, 75);
+    color:rgb(188, 108, 28);
     font-weight: bold;
     font-family: Arial, sans-serif;
 }
 .caja{
-    background-color: rgba(106, 208, 78, 0.418);
-    padding: 20px;
+    background-color: rgba(248, 184, 66, 0.418);
+    padding: 10px;
     font-size: 20px;
     text-align: center;
     border-radius: 14px;
@@ -72,16 +72,23 @@ a{
 }
 p{
     font-size: 20px;
-    color: rgb(84, 157, 75);
+    color: rgb(196, 123, 6);
 }
 h2{
-    color: black;
+    color: rgb(240, 136, 24);
     font-size: 24px;
 }
-.imagen{
-    transition: color 0.4s ease;
-    width: 50%;
-    height: auto;
+.conten{
+
     border-radius: 14px;
-   
+    height: 50%;
+    width: 100%;
+
 }
+
+.conten .contenedor-imagen{
+    width: 75%;
+    margin: 0 auto;
+    border-radius: 24px;
+}
+    
